@@ -1,0 +1,28 @@
+$(document).ready(function(){
+
+$("body").click(function() {
+	
+	$(".lower").mousedown(function(e){
+	circle_top = e.pageY - 80;
+	circle_left = e.pageX - 80;
+	}).mouseover();
+	
+	var word = $(".text").val();
+	var txt = word.charAt(0);
+	
+	word = word.substr(1);
+	$(".text").val(word);
+	
+	$("<div class='circle'>").text(txt).addClass("word")
+	.css("top", circle_top).css("left", circle_left)
+	.css("height", "175px").css("width", "175px").appendTo(".lower");
+	
+	$(".circle").css("visibility", "visible");
+	
+	});
+});
+
+
+
+
+
