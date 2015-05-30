@@ -16,7 +16,7 @@ $("body").click(function() {
 	
 	//if else statement to take put character from text field into red circle
 	if(txt == "") {
-		//do nothing if form is empty
+		//do nothing if text input is empty
 	}else{
 	$("<div class='circle'>").text(txt).addClass("word")
 	.css("top", circle_top).css("left", circle_left)
