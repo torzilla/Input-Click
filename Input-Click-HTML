@@ -9,9 +9,7 @@
 <body>
 <div class="container">
 	<form>
-	<input class="text">
-	
-	
+		<input class="text">
 	</form>
 	<section class="lower">
 		<div class="circle"></div>
