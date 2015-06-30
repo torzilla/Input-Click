@@ -4,18 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Tor Rydberg">
 	<title>Input Click</title>
-	<link type="text/css" rel="stylesheet" href="input_clickCSS.css">
+	<link type="text/css" rel="stylesheet" href="InputClickCSS.css">
 </head>
 <body>
 <div class="container">
 	<form>
-		<input class="text">
+		<input class="text" placeholder="Enter Text Here">
 	</form>
 	<section class="lower">
 		<div class="circle"></div>
 	</section>
 </div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="input_clickJS.js"></script>
+	<script type="text/javascript" src="JQsource.js"></script>
+	<script type="text/javascript" src="InputClickJS.js"></script>
 </body>
 </html>
