@@ -8,7 +8,6 @@ $("body").click(function() {
 	}).mouseover();
 	
 	//variables to get text from input field
-	
 	var word = $(".text").val();
 	var txt = word.charAt(0);
 	
